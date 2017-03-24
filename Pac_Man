@@ -1,0 +1,14 @@
+void setup()
+{
+  size(240, 240);
+  smooth();
+}
+
+void draw()
+{
+  arc(120, 120, 150, 150, QUARTER_PI, 5.5, PIE);
+  fill(0, 0, 0);
+  smooth();
+  ellipse(120, 90, 15, 15);
+  fill(255, 255, 0);
+}
