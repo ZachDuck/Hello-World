@@ -1,0 +1,75 @@
+size(480, 480);
+smooth();
+
+//First shape
+fill(210, 0, 0);
+beginShape();
+  
+vertex(220, 250);
+vertex(160, 380);
+vertex(205, 260);
+vertex(50, 280);
+vertex(220, 250);
+
+endShape();
+
+//Second shape
+fill(0, 0, 210);
+beginShape();
+  
+vertex(220, 235);
+vertex(120, 120);
+vertex(205, 230);
+vertex(50, 265);
+vertex(220, 235);
+
+endShape();
+
+//Third Shape
+fill(0, 0, 210);
+beginShape();
+  
+vertex(240, 220);
+vertex(140, 115);
+vertex(230, 200);
+vertex(205, 95);
+vertex(240, 220);
+
+endShape();
+
+//Fourth Shape
+fill(210, 0, 0);
+beginShape();
+  
+vertex(260, 225);
+vertex(270, 120);
+vertex(265, 215);
+vertex(330, 200);
+vertex(260, 225);
+
+endShape();
+
+
+//Fifth Shape
+fill(0, 0, 210);
+beginShape();
+  
+vertex(265, 235);
+vertex(335, 210);
+vertex(275, 237);
+vertex(330, 310);
+vertex(265, 235);
+
+endShape();
+
+//Sixth Shape
+fill(0, 0, 210);
+beginShape();
+  
+vertex(245, 245);
+vertex(315, 330);
+vertex(247, 260);
+vertex(220, 375);
+vertex(245, 245);
+
+endShape();
