@@ -1,0 +1,23 @@
+size(480, 480);
+smooth();
+
+//Head
+fill(150, 0, 170);
+ellipse(240, 200, 200, 200);
+endShape();
+
+//Eyes
+fill(0, 0, 0);
+ellipse(210, 175, 45, 45);
+ellipse(270, 175, 45, 45);
+line(205, 175, 275, 175);
+endShape();
+
+fill(255, 255, 255);
+ellipse(210, 175, 5, 5);
+ellipse(270, 175, 5, 5);
+
+//Mouth
+fill(0, 0, 0);
+arc(240, 225, 90, 90, 0, PI);
+endShape();
