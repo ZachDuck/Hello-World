@@ -1,0 +1,66 @@
+//Zach Duck 5-11-17
+
+int x = 240;
+int y = 240;
+int n = 150;
+
+void setup() {
+  
+  size(480, 480);
+  smooth();
+  strokeWeight(1);
+}
+void draw() {
+  background(255);
+  stroke(10);
+  float x1 = map( mouseX, 0, width, 195, 225);
+  float x2 = map( mouseX, 0, width, 255, 285);
+  if (keyPressed && (key == 'b'))
+    { stroke(250);
+    }
+   if (keyPressed && (key == 'n'))
+    { n = 0;
+    }
+  
+  
+   if (keyPressed && (key == CODED)) { // If it’s a coded key
+ 
+   if (keyCode == LEFT) { // If it’s the left arrow
+       x--;
+   }
+     else if (keyCode == RIGHT) { // If it’s the right arrow
+       x++;
+ }
+ }
+   if (keyPressed && (key == CODED)) { // If it’s a coded key
+ 
+   if (keyCode == UP) { // If it’s the left arrow
+       y--;
+   }
+     else if (keyCode == DOWN) { // If it’s the right arrow
+       y++;
+ }
+   }
+
+
+
+
+//Head
+fill(n, 0, 170);
+ellipse(x, y, 200, 200);
+
+
+//Eyes
+fill(0, 0, 0);
+ellipse(x-30, y-65, 45, 45);
+ellipse(x+30, y-65, 45, 45);
+
+//Eyeballs
+fill(255, 255, 255);
+ellipse(x1, y-65, 5, 5);
+ellipse(x2, y-65, 5, 5);
+
+//Mouth
+fill(0, 0, 0);
+arc(x, y-15, 90, 90, 0, PI);
+}
