@@ -1,0 +1,24 @@
+// Zach Duck  5/17/17
+
+PFont font2;
+PFont font;
+void setup() {
+ size(400, 120);
+ font = loadFont("ACaslonPro-SemiboldItalic-48.vlw");
+ textFont(font);
+
+}
+void draw() {
+ background(102);
+ 
+ fill(0, 0, 0);
+ textSize(48);
+ text("Zachary Duck", 40,45);
+ 
+ fill(125, 0, 125);
+ font2 = loadFont("AGaramondPro-Italic-30.vlw");
+ textFont(font);
+ textSize(30);
+  text("Zachary Duck", 40,80);
+ 
+}
